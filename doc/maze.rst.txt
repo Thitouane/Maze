@@ -1,0 +1,45 @@
+=========================
+:mod:`maze` module
+=========================
+
+Ce module définit des classes auxiliaire pour créer un labyrinthe
+
+
+Class description
+=================
+			   
+La classe :class:`Maze`
+------------------------------   
+
+.. autoclass:: minesweeper.Maze
+
+Méthodes
+~~~~~~~~
+
+.. automethod:: maze.Maze.get_height
+
+.. automethod:: miaze.Maze.get_width
+
+.. automethod:: maze.Maze.grid
+								
+.. automethod:: maze.Maze.miner
+
+.. automethod:: maze.Maze.writer
+
+.. automethod:: maze.Maze.reader
+
+.. automethod:: maze.Maze.miner_ajustement
+
+.. automethod:: maze.Maze.draw
+	
+Special method
+--------------
+
+Only one special method for this class.
+
+.. automethod:: cell.Cell.__init__
+															
+Fonction auxiliaire
+===================
+
+.. autofunction:: maze.neighborhood

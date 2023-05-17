@@ -1,0 +1,38 @@
+=========================
+:mod:`stack` module
+=========================
+
+Ce module définit des classes et fonctions auxiliaires pour gérer le plateau du jeu de démineur.
+
+
+Class description
+=================
+
+La classe :class:`StackEmptyError`
+----------------------------
+
+.. autoclass:: stack.StackEmptyError
+
+			   
+La classe :class:`Stack`
+------------------------------   
+
+.. autoclass:: stack.Stack
+
+Méthodes
+~~~~~~~~
+
+.. automethod:: stack.Stack.push
+
+.. automethod:: stack.Stack.pop
+
+.. automethod:: stack.Stack.top
+
+.. automethod:: stack.Stack.is_empty
+
+Special method
+--------------
+
+Only one special method for this class.
+
+.. automethod:: cell.Cell.__init__

@@ -1,0 +1,60 @@
+==================
+:mod:`cell` module
+==================
+
+
+Ce module définit une classe pour représenter les cellules (ou cases) d'un labyrinthe.
+
+Une cellule peut avoir
+
+* une bordure haute ( is_top )
+* une bordure droite ( is_right )
+* une bordure basse ( is_bottom )
+* une bordure gauche ( is_left )
+
+et elle peut être 
+
+* coché ( checked )
+
+on peut mettre une bordure à notre guise avec les fonctions 
+
+* unset_top
+* unset_right
+* unset_bottom
+* unset_left
+
+Class description
+-----------------
+
+.. autoclass:: cell.Cell
+
+Methods
+-------
+
+.. automethod:: cell.Cell.is_top
+
+.. automethod:: cell.Cell.is_right
+
+.. automethod:: cell.Cell.is_bottom
+
+.. automethod:: cell.Cell.set_left
+
+.. automethod:: cell.Cell.unset_top
+
+.. automethod:: cell.Cell.unset_right
+								
+.. automethod:: cell.Cell.unset_bottom
+
+.. automethod:: cell.Cell.unset_left
+								
+.. automethod:: cell.Cell.checked
+	
+.. automethod:: cell.Cell.check
+		   
+Special method
+--------------
+
+Only one special method for this class.
+
+.. automethod:: cell.Cell.__init__
+								
